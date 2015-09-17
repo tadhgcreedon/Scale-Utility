@@ -1,0 +1,57 @@
+var diatonic = [
+
+  {"camelot#":"8", "a":"A Minor", "b":"C Major", "root":"A", "2nd":"B", "3rd":"C", "4th":"D", "5th":"E",
+    "6th":"F", "7th":"G", "camelotColor":""},
+
+  {"camelot#":"3", "a":"Bb/A# Minor", "b":"Db/C# Major", "root":"Gb/A#", "2nd":"C", "3rd":"C#", "4th":"D#",
+    "5th":"F", "6th":"F#", "7th":"G#", "camelotColor":""},
+
+  {"camelot#":"10", "a":"B Minor", "b":"D Major", "root":"B", "2nd":"C#", "3rd":"D", "4th":"E",
+    "5th":"F#", "6th":"G", "7th":"A", "camelotColor":""},
+
+  {"camelot#":"5", "a":"C Minor", "b":"Eb/D# Major", "root":"C", "2nd":"D", "3rd":"D#", "4th":"F",
+    "5th":"G", "6th":"G#", "7th":"A#", "camelotColor":""},
+
+  {"camelot#":"12", "a":"Db/C# Minor", "b":"E Major", "root":"C#", "2nd":"D#", "3rd":"E", "4th":"F#",
+    "5th":"G#", "6th":"A", "7th":"B", "camelotColor":""},
+
+  {"camelot#":"7", "a":"D Minor", "b":"F Major", "root":"D", "2nd":"E", "3rd":"F", "4th":"G",
+    "5th":"A", "6th":"Gb/A#", "7th":"C", "camelotColor":""},
+
+  {"camelot#":"2", "a":"Eb/D# Minor", "b":"Gb/F# Major", "root":"D#", "2nd":"F", "3rd":"F#", "4th":"G#",
+    "5th":"Gb/A#", "6th":"B", "7th":"C#", "camelotColor":""},
+
+  {"camelot#":"9", "a":"E Minor", "b":"G Major", "root":"E", "2nd":"F#", "3rd":"G", "4th":"A",
+    "5th":"B", "6th":"C", "7th":"D", "camelotColor":""},
+
+  {"camelot#":"4", "a":"F Minor", "b":"Ab/G# Major", "root":"F", "2nd":"G", "3rd":"G#", "4th":"Gb/A#",
+    "5th":"C", "6th":"C#", "7th":"D#", "camelotColor":""},
+
+  {"camelot#":"11", "a":"Gb/F# Minor", "b":"A Major", "root":"F#", "2nd":"G#", "3rd":"A", "4th":"B",
+    "5th":"C#", "6th":"D", "7th":"E", "camelotColor":""},
+
+  {"camelot#":"6", "a":"G Minor", "b":"Bb/A# Major", "root":"G", "2nd":"A", "3rd":"Gb/A#", "4th":"C",
+    "5th":"D", "6th":"D#", "7th":"F", "camelotColor":""},
+
+  {"camelot#":"1", "a":"Ab/G# Minor", "b":"B Major", "root":"G#", "2nd":"Gb/A#", "3rd":"B", "4th":"C#",
+    "5th":"D#", "6th":"E", "7th":"F#", "camelotColor":""}
+];
+
+var camelotWheel = [
+  {"camelot#":"1", "a":"Ab/G# Minor", "b":"B Major"},
+  {"camelot#":"2", "a":"Eb/D# Minor", "b":"Gb/F# Major"},
+  {"camelot#":"3", "a":"Bb/A# Minor", "b":"Db/C# Major"},
+  {"camelot#":"4", "a":"F Minor", "b":"Ab/G# Major"},
+  {"camelot#":"5", "a":"C Minor", "b":"Eb/D# Major"},
+  {"camelot#":"6", "a":"G Minor", "b":"Bb/A# Major"},
+  {"camelot#":"7", "a":"D Minor", "b":"F Major"},
+  {"camelot#":"8", "a":"A Minor", "b":"C Major"},
+  {"camelot#":"9", "a":"E Minor", "b":"G Major"},
+  {"camelot#":"10", "a":"B Minor", "b":"D Major"},
+  {"camelot#":"11", "a":"Gb/F# Minor", "b":"A Major"},
+  {"camelot#":"12", "a":"Db/C# Minor", "b":"E Major"}
+];
+
+var noteFrequencyChart = [
+  {"note":"", "-1":"", "0":"", "1":"", "2":"", "3":"", "4":"", "5":"", "6":"", "7":"", "8":""},
+];
